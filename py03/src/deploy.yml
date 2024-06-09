@@ -1,0 +1,20 @@
+hosts: all
+tasks:
+- name: Install packages
+  package:
+    name:
+    - python3
+    - nginx
+    state: present
+- copy:
+    dest: /remote/path/exploit.py
+    src: exploit.py
+  name: Copy exploit.py
+- copy:
+    dest: /remote/path/consumer.py
+    src: consumer.py
+  name: Copy consumer.py
+- command: python3 /remote/path/exploit.py -e 4815162342,3133780085
+  name: Execute exploit.py with arguments
+- command: python3 /remote/path/consumer.py -e 4815162342,3133780085
+  name: Execute consumer.py with arguments
