@@ -1,0 +1,43 @@
+[
+    {
+        "question": "What is your favorite color?",
+        "answers": ["Red", "Blue", "Green", "Yellow"]
+    },
+    {
+        "question": "Do you enjoy rainy days?",
+        "answers": ["Yes", "No", "Sometimes", "Always"]
+    },
+    {
+        "question": "What is your preferred type of pet?",
+        "answers": ["Dog", "Cat", "Bird", "Fish"]
+    },
+    {
+        "question": "Do you prefer reading books or watching movies?",
+        "answers": ["Reading books", "Watching movies", "Both", "Neither"]
+    },
+    {
+        "question": "How do you usually spend your weekends?",
+        "answers": ["Sleeping", "Working", "Hanging out with friends", "Traveling"]
+    },
+    {
+        "question": "Do you believe in luck?",
+        "answers": ["Yes", "No", "Sometimes", "Not sure"]
+    },
+    {
+        "question": "What is your favorite season?",
+        "answers": ["Spring", "Summer", "Autumn", "Winter"]
+    },
+    {
+        "question": "Do you prefer tea or coffee?",
+        "answers": ["Tea", "Coffee", "Both", "Neither"]
+    },
+    {
+        "question": "Do you enjoy solving puzzles?",
+        "answers": ["Yes", "No", "Sometimes", "Always"]
+    },
+    {
+        "question": "What kind of movies do you prefer?",
+        "answers": ["Action", "Comedy", "Drama", "Science Fiction"]
+    }
+]
+
