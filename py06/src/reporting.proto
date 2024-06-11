@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package reporting;
+
+service ReportingService {
+    rpc ReportCoordinates(Coordinates) returns (stream Spaceship);
+}
+
+message Coordinates {
+    string galactic_coordinates = 1;
+}
+
+enum Alignment {
+    ALLY = 0;
+    ENEMY = 1;
+}
+
+enum Class {
+    CORVETTE = 0;
+    FRIGATE = 1;
+    DESTROYER = 2;
+    CRUISER = 3;
+    DREADNOUGHT = 4;
+    CARRIER = 5;  // Добавлено недостающее значение
+}
+
+message Officer {
+    string first_name = 1;
+    string last_name = 2;
+    string rank = 3;
+}
+
+message Spaceship {
+    Alignment alignment = 1;
+    string name = 2;
+    Class ship_class = 3;
+    float length = 4;
+    int32 crew_size = 5;
+    bool armed = 6;
+    repeated Officer officers = 7;
+}
+
