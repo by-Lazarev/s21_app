@@ -1,0 +1,28 @@
+[
+    {
+        "id": "loc_1",
+        "name": "Starting Point",
+        "description": "You are at the starting point.",
+        "connections": {
+            "north": "loc_2",
+            "east": "loc_3"
+        }
+    },
+    {
+        "id": "loc_2",
+        "name": "Northern Point",
+        "description": "You are at the northern point.",
+        "connections": {
+            "south": "loc_1"
+        }
+    },
+    {
+        "id": "loc_3",
+        "name": "Eastern Point",
+        "description": "You are at the eastern point.",
+        "connections": {
+            "west": "loc_1"
+        }
+    }
+]
+

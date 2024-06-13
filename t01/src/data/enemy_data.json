@@ -1,0 +1,10 @@
+[
+    {
+        "id": "enemy_1",
+        "name": "Goblin",
+        "location_id": "loc_2",
+        "strength": 2,
+        "hp": 5
+    }
+]
+

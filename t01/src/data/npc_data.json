@@ -1,0 +1,9 @@
+[
+    {
+        "id": "npc_1",
+        "name": "Friendly NPC",
+        "location_id": "loc_1",
+        "dialogue": "Hello, adventurer!"
+    }
+]
+
